@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="94"
+   height="94"
+   viewBox="0 0 24.870832 24.870832"
+   version="1.1"
+   id="svg5563"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Zeichnung.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5565"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.9950522"
+     inkscape:cx="35.741872"
+     inkscape:cy="48.860194"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5558" />
+  <defs
+     id="defs5560" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5558"
+       style="display:inline"
+       transform="translate(-84.072721,-82.831613)">
+      <g
+         id="g424">
+        <circle
+           style="display:inline;fill:#0d6b8e;fill-opacity:1;stroke-width:0.200096"
+           id="path111"
+           cx="96.426735"
+           cy="95.420364"
+           r="12" />
+        <g
+           id="g416">
+          <text
+             xml:space="preserve"
+             style="font-size:19.0983px;display:inline;fill:#fdf2e9;fill-opacity:1;stroke-width:0.397879"
+             x="-92.104317"
+             y="-91.527451"
+             id="text281"
+             transform="scale(-1.0838593,-0.92262897)"><tspan
+               sodipodi:role="line"
+               id="tspan279"
+               style="font-size:19.0983px;fill:#fdf2e9;fill-opacity:1;stroke-width:0.397879"
+               x="-92.104317"
+               y="-91.527451">P</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:16.8155px;display:inline;fill:#fdf2e9;fill-opacity:1;stroke-width:0.350323"
+             x="80.529465"
+             y="120.69215"
+             id="text416"
+             transform="scale(1.1328001,0.88276829)"><tspan
+               sodipodi:role="line"
+               id="tspan414"
+               style="fill:#fdf2e9;fill-opacity:1;stroke-width:0.350323"
+               x="80.529465"
+               y="120.69215">T</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
