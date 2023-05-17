@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #292d34;
+  --primary-color: #272b32;
   --secondary-color: #0d6b8e;
   --btn-font1-color: #fdf2e9;
   --btn-font2-color: #fdf2e9;
@@ -7,6 +7,7 @@
   --btn-bg2-color: #0c5b78;
   --sidebar-font-color: #fdf2e9;
   --main-font-color: #777;
+  --plain-text-color:#2b2f36;
   --border-bottom-color: #434a55;
   --nav-hover-color: #3d434c;
   --nav-active-color: #b4aba4;
@@ -29,7 +30,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   font-weight: 300;
-  color: #555;
+  color: #2d3439;
 }
 main {
   background: url(../img/bg.png) repeat;
@@ -70,7 +71,9 @@ main {
   margin-bottom: 1.4rem;
   color: var(--primary-color);
 }
-
+.plain-text{
+  color: var(--plain-text-color);
+}
 .padding {
   padding: 2rem;
 }

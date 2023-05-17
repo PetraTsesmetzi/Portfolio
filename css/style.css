@@ -1,3 +1,7 @@
+:root{
+  --mainBg: #21242a;
+}
+
 .container {
   display: grid;
   grid-template-columns: 20rem 3fr;
@@ -14,7 +18,7 @@
   height: 100vh;
   width: 20rem;
   background-color: var(--primary-color);
-  box-shadow: 0.5rem 0 1rem rgba(41, 45, 52, 0.3);
+  /*box-shadow: 0.5rem 0 1rem rgba(41, 45, 52, 0.3);*/
 }
 
 .logo {
@@ -147,7 +151,7 @@
   display: flex;
   justify-content: end;
   height: 5rem;
-  background-image: linear-gradient(to right, #272b32, #292d34);
+  background-color: var(--mainBg);
 }
 .mobile-nav-icon {
   height: 4.8rem;
@@ -165,7 +169,7 @@
 
 .section-hero {
   height: 100vh;
-  background-image: linear-gradient(to right, #272b32, #292d34);
+  background-color:var( --mainBg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,6 +217,7 @@
 .current-focuses {
   margin-top: 3.8rem;
   font-size: 2.2rem;
+  font-weight: 600;
   color: var(--secondary-color);
 }
 .aside-heading {
