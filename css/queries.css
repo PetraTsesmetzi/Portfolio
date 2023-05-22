@@ -24,6 +24,14 @@
   .contact-card-box {
     width: 100rem;
   }
+
+
+  .project-card-description p:last-of-type {
+    height: 50px;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-evenly;
+  }
 }
 
 /* ************************ */
@@ -34,7 +42,6 @@
 @media (max-width: 75em) {
   /******** HERO-SECTION*****************/
   .hero {
-    flex-direction: column;
     flex-direction: column-reverse;
   }
   .hero-text-box {
@@ -79,7 +86,7 @@
   /********PROJECT-SECTION*****************/
   .project-gallery {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   /********SKILLS-SECTION*****************/
   .skills img {
@@ -121,6 +128,24 @@
     grid-template-columns: 1fr;
     position: relative;
   }
+  /***********************/
+  /* Portfolio */
+  .project-card-box {
+    height: 42rem;
+
+  }
+  .project-card, .project-item img, .project-card-description {
+    height: 42rem;
+  }
+
+  .project-card-header {
+    height: 26rem;
+  }
+
+  .project-card-body {
+    height: 16rem;
+
+  }
 
   /***********************/
   /* mobile navigation */
@@ -150,6 +175,12 @@
   .mobile-nav-open .mobile-nav-icon[name="menu-outline"] {
     display: none;
   }
+  .contact-map-box iframe {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0;
+
+  }
 }
 /*********************** */
 /* 700px /16px =44em*/
@@ -174,19 +205,52 @@
 /* 544px /16px =34em*/
 /* BELOW 544px phones*/
 /*********************** */
+
 @media (max-width: 34rem) {
   /********GENERAL*****************/
   html {
-    font-size: 65%;
+    /*font-size: 65%;*/
   }
+  .about-me-box
+  {
+    width: 52rem;
+    border:1px solid green;
+  }
+
   .portfolio-gallery-box,
   .skill-card-box,
   .resources-card-box,
   .education-card-box,
   .contact-card-box {
-    width: 54rem;
+    width: 40rem;
   }
 
+  /********HERO-SECTION*****************/
+  .hero-text-box p {
+    font-size:26px;
+  }
+  .hero-img-box img {
+    height: 22rem;
+  }
+  /********ABOUT-SECTION*****************/
+  .about-me-box {
+
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    }
+  .about-me-img-box img {
+    height: 34rem;
+  }
+  .about-me-text-box{
+    margin:0;
+    padding: 0;
+  }
+  .about-me {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
   /********PROJECT-SECTION*****************/
   .project-gallery {
     display: flex;
@@ -195,15 +259,12 @@
   .project-card-body {
     padding: 4.4rem 2.4rem;
   }
-  .project-card-box {
-    height: 48rem;
-  }
 
-  .project-card-body {
-    height: 20rem;
-    background-color: #fff;
-  }
+
   /********SKILLS-SECTION*****************/
+  .skill-card-box{
+    height: 75rem;
+  }
   .skills-card {
     height: auto;
     width: auto;
@@ -211,7 +272,7 @@
   .skills-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   /********RESOURCES-SECTION*****************/
   .resources-card {

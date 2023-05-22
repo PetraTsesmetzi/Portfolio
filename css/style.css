@@ -15,7 +15,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
   width: 20rem;
   background-color: var(--primary-color);
   /*box-shadow: 0.5rem 0 1rem rgba(41, 45, 52, 0.3);*/
@@ -168,7 +167,7 @@
 /**********************************/
 
 .section-hero {
-  height: 100vh;
+  min-height: 100vh;
   background-color:var( --mainBg);
   display: flex;
   align-items: center;
@@ -233,15 +232,17 @@
 .portfolio-gallery-box {
   width: 110rem;
   margin: 0 auto;
+
 }
 .project-gallery {
   margin: 6.8rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   row-gap: 6rem;
   column-gap: 2rem;
   padding: 2rem 0;
+
 }
 
 .project-card-box {
@@ -284,7 +285,6 @@
 .project-card-header {
   height: 24rem;
   background-size: cover;
-  background-size: cover;
   background-position: center;
   cursor: pointer;
 }
@@ -298,6 +298,7 @@
 }
 .project-card-body p {
   color: var(--main-font-color);
+
 }
 .project-item img {
   height: 38rem;
@@ -326,6 +327,13 @@
   margin-bottom: 2.4rem;
   border-bottom: 1px solid var(--main-font-color);
 }
+.project-card-description p:last-of-type {
+  height: 50px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-evenly;
+}
 .description-open .project-card-description {
   opacity: 1;
   transform: translateY(0);
@@ -334,7 +342,7 @@
 }
 .btn-project-link:link,
 .btn-project-link:visited {
-  margin-left: 3rem;
+  /*margin-left: 3rem;*/
 }
 
 /**********************************/
@@ -349,8 +357,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .skills-card {
-  height: 30rem;
   background-color: #fff;
   box-shadow: 0 0.75rem 2rem rgba(41, 45, 52, 0.1);
   border-radius: 1rem;
@@ -363,6 +371,7 @@
   margin: 4rem;
   display: flex;
   gap: 5rem;
+  flex-wrap: wrap;
 }
 .skills {
   display: flex;
@@ -389,9 +398,10 @@
   justify-content: center;
 }
 .resources-card {
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   column-gap: 3rem;
   row-gap: 3rem;
 }
