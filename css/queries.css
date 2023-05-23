@@ -154,14 +154,16 @@
   }
   /***********************/
   .side-bar {
+    height:calc(100vh + 5rem);
     opacity: 0;
     top: 0;
     left: 0;
     transform: translateX(-20rem);
-    position: absolute;
+    position: fixed;
     pointer-events: none;
     visibility: hidden;
     transition: all 1s ease-in-out;
+
   }
   .mobile-nav-open .side-bar {
     opacity: 1;
@@ -214,7 +216,6 @@
   .about-me-box
   {
     width: 52rem;
-    border:1px solid green;
   }
 
   .portfolio-gallery-box,

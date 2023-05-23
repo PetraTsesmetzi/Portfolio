@@ -17,6 +17,7 @@
   left: 0;
   width: 20rem;
   background-color: var(--primary-color);
+  z-index:100;
   /*box-shadow: 0.5rem 0 1rem rgba(41, 45, 52, 0.3);*/
 }
 
@@ -147,10 +148,13 @@
   /* z-index: 1; */
 }
 .mobile-nav-menu {
+  position:fixed;
+  width:100%;
   display: flex;
   justify-content: end;
   height: 5rem;
   background-color: var(--mainBg);
+  z-index:99;
 }
 .mobile-nav-icon {
   height: 4.8rem;
