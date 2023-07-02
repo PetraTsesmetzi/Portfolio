@@ -1,5 +1,5 @@
 # Portfolio-Webseite
-Willkommen zu meiner Vita-Seite! Diese Webseite dient dazu, einen Überblick über meine Fähigkeiten, Erfahrungen und Projekte zu geben. Hier sind einige Informationen, die dir bei der Nutzung dieser Seite helfen werden.
+Willkommen zu meiner Portfolio-Webseite! Diese Webseite dient dazu, einen Überblick über meine Fähigkeiten, Erfahrungen und Projekte zu geben. Hier sind einige Informationen, die dir bei der Nutzung dieser Seite helfen werden.
 
 # Inhalte
 Die Webseite ist in verschiedene Abschnitte unterteilt:
