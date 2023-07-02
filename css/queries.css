@@ -124,6 +124,11 @@
 /* below 944px Tablets */
 /* ************************ */
 @media (max-width: 59rem) {
+
+  /*.mobile-nav-menu{*/
+  /*  display: flex;*/
+  /*}*/
+
   .container {
     grid-template-columns: 1fr;
     position: relative;

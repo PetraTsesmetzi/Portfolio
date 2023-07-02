@@ -103,9 +103,11 @@
 
 .main-nav-list .basket-border:hover {
   border-left: 0.3rem solid #c2294f;
+
 }
 .basket {
   color: #c2294f;
+
 }
 .main-nav-list .stats-chart-border:hover {
   border-left: 0.3rem solid #9c27b0;
@@ -150,7 +152,7 @@
 .mobile-nav-menu {
   position:fixed;
   width:100%;
-  display: flex;
+  display: none;
   justify-content: end;
   height: 5rem;
   background-color: var(--mainBg);
@@ -263,25 +265,25 @@
   background: url(../img/portfolio.png);
 }
 .project-card-header-2 {
-  background: url(../img/portfolio.png);
+  background: url(../img/projects/LandingPage_DocuTool.jpg);
 }
 .project-card-header-3 {
-  background: url(../img/portfolio.png);
+  background: url(../img/projects/women-at-work.png),#fff;
 }
 .project-card-header-4 {
-  background: url(../img/portfolio.png);
+  background: url(../img/projects/women-at-work.png),#fff;
 }
 .project-card-header-5 {
-  background: url(../img/portfolio.png);
+  background: url(../img/projects/women-at-work.png),#fff;
 }
 .project-card-header-6 {
-  background: url(../img/portfolio.png);
+  background: url(../img/projects/women-at-work.png),#fff;
 }
 .project-card-header-7 {
-  background: url(../img/portfolio.png);
+  background: url(../img/projects/women-at-work.png),#fff;
 }
 .project-card-header-8 {
-  background: url(../img/portfolio.png);
+  background: url(../img/projects/women-at-work.png),#fff;
 }
 .project-card-header-9 {
   background: url(../img/portfolio.png);
@@ -290,6 +292,7 @@
   height: 24rem;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   cursor: pointer;
 }
 
