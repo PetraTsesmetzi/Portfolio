@@ -27,7 +27,7 @@
 
 
   .plain-text{
-    height: 50px;
+    /*height: 50px;*/
     flex-direction:row;
     align-items:center;
     justify-content: space-evenly;

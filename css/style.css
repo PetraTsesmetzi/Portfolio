@@ -340,7 +340,7 @@
   justify-content: space-between;
 }
 
-.plain-text{
+.project-card-description .plain-text{
   margin-top:10px ;
   height:290px;
 }
