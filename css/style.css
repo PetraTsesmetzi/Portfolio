@@ -257,10 +257,16 @@
   border-radius: 1rem;
   overflow: hidden;
 }
+.project-card-box:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
 .project-card {
-  box-shadow: 0 0.75rem 2rem rgba(41, 45, 52, 0.1);
+  box-shadow: 0 0.75rem 2rem rgba(41, 45, 52, 0.5);
+
   height: 38rem;
 }
+
 .project-card-header-1 {
   background: url(../img/portfolio.png);
 }
@@ -270,6 +276,7 @@
 .project-card-header-3 {
   background: url(../img/projects/women-at-work.png),#fff;
 }
+
 .project-card-header-4 {
   background: url(../img/projects/women-at-work.png),#fff;
 }
@@ -279,21 +286,21 @@
 .project-card-header-6 {
   background: url(../img/projects/women-at-work.png),#fff;
 }
-.project-card-header-7 {
-  background: url(../img/projects/women-at-work.png),#fff;
-}
-.project-card-header-8 {
-  background: url(../img/projects/women-at-work.png),#fff;
-}
-.project-card-header-9 {
-  background: url(../img/portfolio.png);
-}
+
+
 .project-card-header {
   height: 24rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.underConstruction {
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #21242a;
 }
 
 .project-card-body {
@@ -305,8 +312,12 @@
 }
 .project-card-body p {
   color: var(--main-font-color);
-
+  margin-top: 20px;
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
 }
+
 .project-item img {
   height: 38rem;
 }
@@ -329,17 +340,9 @@
   justify-content: space-between;
 }
 
-.project-card-description p:first-of-type {
-  padding-bottom: 2.4rem;
-  margin-bottom: 2.4rem;
-  border-bottom: 1px solid var(--main-font-color);
-}
-.project-card-description p:last-of-type {
-  height: 50px;
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: space-evenly;
+.plain-text{
+  margin-top:10px ;
+  height:290px;
 }
 .description-open .project-card-description {
   opacity: 1;
@@ -349,7 +352,7 @@
 }
 .btn-project-link:link,
 .btn-project-link:visited {
-  /*margin-left: 3rem;*/
+  margin-right: 3rem;
 }
 
 /**********************************/
@@ -471,7 +474,7 @@
 .contact-card {
   height: 40rem;
   /* border: 2px solid blue; */
-  background-color: var(--secondary-color);
+  background-color: var( --plain-text-color);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
