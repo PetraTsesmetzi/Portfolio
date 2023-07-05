@@ -4,7 +4,7 @@
   --btn-font1-color: #fdf2e9;
   --btn-font2-color: #fdf2e9;
   --btn-bg1-color: #0d6b8e;
-  --btn-bg2-color: #0c5b78;
+  --btn-bg2-color: #149dd0;
   --sidebar-font-color: #fdf2e9;
   --main-font-color: #777;
   --plain-text-color:#2b2f36;
@@ -86,15 +86,17 @@ main {
 }
 .btn:link,
 .btn:visited {
-  text-decoration: none;
-  background-color: var(--btn-bg1-color);
-  color: var(--btn-font1-color);
+  /*text-decoration: none;*/
+  /*background-color: var(--btn-bg1-color);*/
+  /*color: var(--btn-font1-color);*/
+  color:#2b2f36;
   font-weight: 400;
-  padding: 0.8rem;
-  border-radius: 0.5rem;
+  /*padding: 0.8rem;*/
+  /*border-radius: 0.5rem;*/
 }
 .btn:hover,
 .btn:active {
-  background-color: var(--btn-bg2-color);
-  color: var(--btn-font2-color);
+  /*background-color: var(--btn-bg2-color);*/
+  /*color: var(--btn-font2-color);*/
+  color:var(--btn-bg2-color);
 }
